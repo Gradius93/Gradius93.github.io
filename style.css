@@ -1,15 +1,97 @@
-*{
-  font-family: : Arial, sans-serif;
+* {
+  font-family: Arial, sans-serif;
 }
 
 body {
   margin: 0;
-  padding: 0;
-  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg');
+  padding: 20;
+  background-color: black;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.topnav {
+  background-color: #333;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  margin-top: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+#landing .inner {
+  margin: auto;
+  max-width: 1100px;
+  text-align: left;
+  position: relative;
+  display: flex;
+}
+
+#title {
+  padding: 100px 100px;
+}
+
+
+#subtitle {
+  font-size: 50px;
+}
+
+#about1 {
+  justify-content: left;
   color: black;
+  width: 50%;
+  margin: 40px;
 
 }
 
-h1 {
+#about2 {
+  display: flex;
+  justify: right;
+  color: red;
+  width: 50%;
+  margin: 40px;
+
+}
+
+.line-1{
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255,255,255,.75);
   text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 10em;}
+}
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+#name {
+  font-size: 100px;
 }
