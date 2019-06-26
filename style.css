@@ -1,15 +1,19 @@
 * {
-  font-family: Arial, sans-serif;
+  font-family: 'Permanent Marker', cursive;
 }
 
 body {
   margin: 0;
-  padding: 20;
-  background-color: black;
+  padding: 0;
+  background-color: rgb(255, 223, 43);
   background-repeat: no-repeat;
-  color: white;
-  width: 100%;
+  color: black;
   text-align: center;
+
+}
+
+p {
+  text-align: left;
 }
 
 .container {
@@ -17,13 +21,16 @@ body {
 }
 
 .topnav {
-  background-color: #333;
-  padding: 10px;
+  background-color: rgb(255, 223, 43);
+  padding-top: 10px;
+  position: fixed;
+  top:0;
+  width:100%;
   overflow: hidden;
 }
 
 .topnav a {
-  color: #f2f2f2;
+  color: #0b1100;
   text-align: center;
   margin-top: 20px;
   padding: 14px 16px;
@@ -31,67 +38,80 @@ body {
   font-size: 22px;
 }
 
-#landing .inner {
-  margin: auto;
-  max-width: 1100px;
-  text-align: left;
-  position: relative;
-  display: flex;
+.topnav a:hover {
+  color: white;
+
+}
+#name {
+  font-size: 200px;
 }
 
-#title {
-  padding: 100px 100px;
-}
-
-
-#subtitle {
-  font-size: 50px;
+.subsubtitle {
+  font-size: 100px;
+  margin: 0 auto;
 }
 
 #about1 {
   justify-content: left;
   color: black;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
   width: 50%;
-  margin: 40px;
+  margin: 20px;
 
 }
 
 #about2 {
   display: flex;
-  justify: right;
-  color: red;
+  justify: left;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
   width: 50%;
-  margin: 40px;
+  margin: 20px;
 
 }
 
-.line-1{
-  position: relative;
-  top: 50%;
-  width: 24em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255,255,255,.75);
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  transform: translateY(-50%);
+#about3 {
+  justify-content: left;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
+  width: 50%;
+  margin: 20px;
+
 }
 
-.anim-typewriter{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
-}
-
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 10em;}
-}
-
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
-}
+/* Stuff i might use later
 
 #name {
-  font-size: 100px;
+  font-size: 200px;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(255, 223, 43), #000, rgb(255, 223, 43));
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-fill-mode: forwards;
 }
+
+@keyframes animate
+{
+    0%
+    {
+      background-position: -500%;
+    }
+    100%
+    {
+      background-position: 500%;
+    }
+}
+
+*/
