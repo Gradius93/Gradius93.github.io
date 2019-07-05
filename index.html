@@ -2,9 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Sean Gray: Programmer Extraordinaire</title>
+    <title>Seán Gray</title>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
     <link rel="stylesheet" href="style.css">
   </head>
@@ -14,35 +16,36 @@
         <div class="topnav">
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
+          <a href="#home">Seán</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
     </section>
     <section id="home">
-      <div class="landing come-in">
+      <div class="landing">
 
-        <h1 id="name">Seán Gray</h1>
+        <h1 id="name" class="animated rollIn delay-0.5s">Seán Gray</h1>
 
       </div>
     </section>
     <section id="about">
-      <h1 class="subtitle come-in">About</h1>
+      <h1 data-aos="fade-up" class="subtitle">About</h1>
       <div class="container">
-        <p class="text">Musician turned software engineer. I decided to take the plunge and change my career as I wanted something a bit more fulfilling and challenging. I’ve also always been interested in technology so decided I would take it one step further and enrol in a software development bootcamp.
+        <p data-aos="fade-right" class="text">Musician turned software engineer. I decided to take the plunge and change my career as I wanted something a bit more fulfilling and challenging. I’ve also always been interested in technology so decided I would take it one step further and enrol in a software development bootcamp.
         </p>
 
-        <p class="text">Problem-solving is something I have always been great at, whether it be working with difficult people or assembling Ikea flatpack furniture, I have always found ways through complicated situations.
+        <p data-aos="fade-up" class="text">Problem-solving is something I have always been great at, whether it be working with difficult people or assembling Ikea flatpack furniture, I have always found ways through complicated situations.
         </p>
-        <p class="text">
+        <p data-aos="fade-left" class="text">
         A hard work ethic is something I believe everyone should have, as it is a positive characteristic that seeps into not just your professional life, but also your personal. By my own reckoning, this is something I have cultivated through years of working demanding jobs to the utmost of my abilities.
       </p>
       </div>
     </section>
     <section id="skills">
-      <h1 class="subtitle">Skills</h1>
+      <h1 data-aos="fade-up" class="subtitle">Skills</h1>
       <div class="container">
-      <div id="devicons">
+      <div data-aos="zoom-in" id="devicons">
         <h1 class="tag">Languages and Frameworks</h1>
         <div class="skillbox">
         <i class="devicon-html5-plain-wordmark colored icon-tech"></i>
@@ -72,10 +75,56 @@
       </section>
     </section>
     <section id="projects">
-      <h1 class="subtitle">Projects</h1>
-      <div class="container">
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1 data-aos="fade-up" class="subtitle">Projects</h1>
+      <div class="container-projects">
+        <div class="projects">
+          <h1>Project Black</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div id="hpPB">
+            <p>Home Page</p>
+            <img class="vinylpic" src="images/Home.jpg" alt="Vinyl Home">
+          </div>
+          <div id="ppPB">
+            <p>Profile Page</p>
+            <img class="vinylpic" src="images/Profile.jpg" alt="Profile">
+          </div>
+          <div id="vcPB">
+            <p>Vinyl Collection</p>
+            <img class="vinylpic" src="images/VinylCollection.jpg" alt="Vinyl Collection">
+          </div>
+
+        </div>
+        <div class="projects">
+
+          <h1>SmolSnekBoi</h1>
+          <p>This was the first project I ever created. It focused on using very basic HTML, CSS and JavaScript. I decided to create the classic Snake game, which was done in the timeframe of 1 week. This project was a solo adventure.</p>
+          <img class="projectpic" src="images/ssBgameplay.jpg" alt="ssBgameplay">
+          <p> link to docs link to game</p>
+        </div>
+        <div class="projects">
+          <h1>Doggie Browser</h1>
+          <p>The second project I created involved using React.js and an API in order to create a webpage which could render the information from the API. This was a pair coding project, and as me and my project partner were both dog lovers, we created a canine search engine. My role was linking the back end to the front end and implementing the React-select search bar function. The time frame for this project was two days.</p>
+          <p>Doggie home page</p>
+          <img class="projectpic" src="images/doggohome.jpg" alt="doggohome">
+          <p>Doggo show page</p>
+          <img class="projectpic" src="images/doggo.jpg" alt="doggo">
+          <p>React Search bar function</p>
+          <img class="projectpic" src="images/dogsearch.jpg" alt="dog search">
+        </div>
+        <div class="projects">
+          <h1>Project Black</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Home Page</p>
+          <img class="vinylpic" src="images/Home.jpg" alt="Vinyl Home">
+          <p id="wrapdamyou">Profile Page</p>
+          <img class="vinylpic" src="images/Profile.jpg" alt="Profile">
+          <p>Vinyl Collection</p>
+          <img class="vinylpic" src="images/VinylCollection.jpg" alt="Vinyl Collection">
+
+        </div>
+        <div class="projects">
+          <h1>Craft Beer database</h1>
+        </div>
       </div>
       </section>
     </section>
@@ -95,45 +144,9 @@
     <div class="footer">
   <p>Footer</p>
 </div>
-    <script>
-    $.fn.visible = function(partial) {
-
-      var $t            = $(this),
-          $w            = $(window),
-          viewTop       = $w.scrollTop(),
-          viewBottom    = viewTop + $w.height(),
-          _top          = $t.offset().top,
-          _bottom       = _top + $t.height(),
-          compareTop    = partial === true ? _bottom : _top,
-          compareBottom = partial === true ? _top : _bottom;
-
-    return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
-
-  };
-
-})(jQuery);
-
-var win = $(window);
-
-var allMods = $(".module");
-
-allMods.each(function(i, el) {
-  var el = $(el);
-  if (el.visible(true)) {
-    el.addClass("already-visible");
-  }
-});
-
-win.scroll(function(event) {
-
-  allMods.each(function(i, el) {
-    var el = $(el);
-    if (el.visible(true)) {
-      el.addClass("come-in");
-    }
-  });
-
-});
-    </script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
   </body>
 </html>
