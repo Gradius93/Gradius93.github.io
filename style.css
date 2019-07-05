@@ -12,32 +12,40 @@ body {
 
 }
 
-.projectpic {
-  height: 40vh;
-  width: 75vh;
-  display: flex;
-  padding: 40px 0px;
-  flex-direction: column;
-}
-
-.vinylpic {
-  height: 40vh;
-  width: 75vh;
-  display: flex;
-  padding: 40px 0px;
-  flex-direction: column;
-}
-
-
 p {
   text-align: left;
-
 }
 
-#wrapdamyou {
+i {
+  font-size: 75px;
+  padding: 10px;
+}
+
+
+
+.pic {
+  width: 83%;
+  height: 60%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+.pictures {
+  display: flex;
+  padding: 0px;
+  flex-wrap: nowrap;
+}
+
+.snakepic1 {
+  width: 60vh;
+  height: 45vh;
+}
+
+.snakepic2 {
+  width: 60vh;
+  height: 45vh;
+}
+
 
 .tag {
   text-decoration: underline;
@@ -56,10 +64,6 @@ p {
 
 }
 
-i {
-  font-size: 75px;
-  padding: 10px;
-}
 
 .container {
   display: flex;
@@ -72,6 +76,7 @@ i {
   padding: 40px 0px;
   flex-wrap: wrap;
 }
+
 .contactdiv {
   display: flex;
   padding: 40px;
@@ -94,6 +99,7 @@ i {
 .skillbox {
   padding-bottom: 50px;
 }
+
 .topnav {
   background-color: rgb(255, 223, 43);
   padding-top: 10px;
@@ -121,28 +127,11 @@ i {
   font-size: 200px;
 }
 
-#subname {
-  padding-top: 0;
-}
 
 .subtitle {
   font-size: 100px;
   margin: 0 auto;
   padding: 40px 0 0 0;
-}
-
-.texts {
-  display: flex;
-  justify-content: left;
-  color: black;
-  background-color: white;
-  font-family: 'Raleway';
-  border-radius: 25px;
-  box-shadow: 5px 10px;
-  padding: 25px;
-  justify-content: flex-end;
-  margin: 20px;
-
 }
 
 .text {
@@ -159,6 +148,25 @@ i {
 
 }
 
+.text2 {
+  color: black;
+  font-family: 'Raleway';
+
+}
+
+#me {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
+  margin: 0 auto;
+  height: 50vh;
+  width: 50vh;
+
+}
 .projects {
   display: flex;
   justify-content: left;
@@ -171,8 +179,6 @@ i {
   flex-wrap: wrap;
   margin: 20px;
   width: 100%;
-
-
 }
 
 .footer {
@@ -183,5 +189,6 @@ i {
   width: 100%;
   background-color: black;
   color: white;
+  justify-content: center;
   text-align: center;
 }
