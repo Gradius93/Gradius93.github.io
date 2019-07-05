@@ -1,11 +1,194 @@
-*{
-  font-family: : Arial, sans-serif;
+* {
+  font-family: 'Permanent Marker', cursive;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=background-blur-clean-531880.jpg&fm=jpg');
-  width: 100%;
+  background-color: rgb(255, 223, 43);
+  background-repeat: no-repeat;
   color: black;
+  text-align: center;
+
+}
+
+p {
+  text-align: left;
+}
+
+i {
+  font-size: 75px;
+  padding: 10px;
+}
+
+
+
+.pic {
+  width: 83%;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.pictures {
+  display: flex;
+  padding: 0px;
+  flex-wrap: nowrap;
+}
+
+.snakepic1 {
+  width: 60vh;
+  height: 45vh;
+}
+
+.snakepic2 {
+  width: 60vh;
+  height: 45vh;
+}
+
+
+.tag {
+  text-decoration: underline;
+}
+
+#devicons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px 25px;
+  margin: 20px;
+  justify-content: flex-start;
+
+}
+
+
+.container {
+  display: flex;
+  padding: 40px 0px;
+
+}
+
+.container-projects {
+  display: flex;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+
+.contactdiv {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+
+}
+
+.contactdiv a {
+  text-decoration: none;
+  padding: 50px;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
+  width: 50%;
+  margin: 20px;
+}
+
+.skillbox {
+  padding-bottom: 50px;
+}
+
+.topnav {
+  background-color: rgb(255, 223, 43);
+  padding-top: 10px;
+  position: fixed;
+  top:0;
+  width:100%;
+  overflow: hidden;
+}
+
+.topnav a {
+  color: #0b1100;
+  text-align: center;
+  margin-top: 20px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  color: white;
+
+}
+
+#name {
+  font-size: 200px;
+}
+
+
+.subtitle {
+  font-size: 100px;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+}
+
+.text {
+  display: flex;
+  justify-content: left;
+  color: black;
+  background-color: white;
+  font-family: 'Raleway';
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
+  width: 50%;
+  margin: 20px;
+
+}
+
+.text2 {
+  color: black;
+  font-family: 'Raleway';
+
+}
+
+#me {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
+  margin: 0 auto;
+  height: 50vh;
+  width: 50vh;
+
+}
+.projects {
+  display: flex;
+  justify-content: left;
+  color: black;
+  background-color: white;
+  font-family: 'Raleway';
+  border-radius: 25px;
+  box-shadow: 5px 10px;
+  padding: 25px;
+  flex-wrap: wrap;
+  margin: 20px;
+  width: 100%;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 450px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  text-align: center;
 }
