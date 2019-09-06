@@ -3,13 +3,13 @@
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   background-color: rgb(255, 223, 43);
   background-repeat: no-repeat;
   color: black;
   text-align: center;
-
+  width: 100%;
 }
 
 p {
@@ -37,12 +37,12 @@ i {
 }
 
 .snakepic1 {
-  width: 60vh;
+  width: 40vh;
   height: 45vh;
 }
 
 .snakepic2 {
-  width: 60vh;
+  width: 40vh;
   height: 45vh;
 }
 
@@ -126,6 +126,7 @@ i {
 
 #name {
   font-size: 200px;
+  margin: 60px 0px 0px 0px;
 }
 
 
@@ -196,4 +197,43 @@ i {
 
 .link {
   color: black;
+}
+
+@media (max-width: 1008px) {
+  #name {
+    font-size: 125px;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .subtitle {
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+  }
+}
+
+@media (max-width: 640px) {
+  #name {
+    font-size: 75px;
+    margin: 80px 0px 0px 0px;
+  }
+
+  .subtitle {
+    font-size: 50px;
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+  }
+
+  .container {
+    display: block;
+    padding: 40px 0px;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+    width: 100%;
+
+
+  }
+
+
 }
