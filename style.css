@@ -6,15 +6,17 @@ html {
 
 @media (max-width: 75em) {
   html {
-    font-size: 60%;
+    font-size: 100%;
   }
+
 }
 
 /* 980px / 16px = 61.25em */
 @media (max-width: 61.25em) {
   html {
-    font-size: 58%;
+    font-size: 100%;
   }
+
 }
 
 /* 460px / 16px = 28.75em */
@@ -87,7 +89,7 @@ a {
   display: block;
   padding-right: 1rem;
   color: black;
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Indie Flower';
 
 }
@@ -131,10 +133,13 @@ a {
 
 
 .bio {
-  margin: 0px 100px 0 100px;
+
   text-align: center;
   padding: 50px;
-  width: 75%;
+}
+
+.bio p {
+  text-align: center;
 }
 
 .work-section {
@@ -163,6 +168,8 @@ a {
   margin-bottom: 6rem;
 }
 
+
+
 .work {
   background: grey;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
@@ -187,7 +194,7 @@ a {
   font-family: 'Indie Flower', sans-serif;
   font-size: 30px;
   color: black;
-  margin: 20px;
+  margin: 40px;
 
 }
 
