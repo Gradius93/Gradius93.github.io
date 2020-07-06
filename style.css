@@ -24,13 +24,10 @@ html {
   }
 
   .about-container {
-    display: block;
+    display: flex;
+
   }
-  .image-div {
-    width: 100%;
-    padding: 50px;
-    margin: 0 auto;
-  }
+
 }
 
 body {
@@ -66,10 +63,6 @@ a {
   color: white;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
 
 /* nav */
 
@@ -135,20 +128,11 @@ img {
   padding-top: 50px;
 
 }
-.image-div {
-  width: 50%;
-  padding: 50px;
-  margin: 0 auto;
-}
-
-.image-div img {
-  border-radius: 25px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-}
-
 
 
 .bio {
+  margin: 0px 100px 0 100px;
+  text-align: center;
   padding: 50px;
   width: 75%;
 }
@@ -198,7 +182,7 @@ img {
 }
 
 .contact-section {
-  height: 50vh;
+  height: 70vh;
   text-align: center;
   font-family: 'Indie Flower', sans-serif;
   font-size: 30px;
